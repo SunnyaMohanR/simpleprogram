@@ -8,15 +8,14 @@ class A
  int a=sc.nextInt();
  System.out.println("The value is= "+a); 
 
- if (a%4==0 && a%400==0)
+ if (a%2=0)
   {
 
-   if(a%400==0)
-    {
-     System.out.println(a+" is not a leap year");
-    }
+   
+     System.out.println(a+" is not a odd");
+    
    else
-     System.out.println(a+" is a leap year");
+     System.out.println(a+" is a even");
   }
 
 
